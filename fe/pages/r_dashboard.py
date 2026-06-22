@@ -2,7 +2,7 @@ import streamlit as st
 import requests as r
 
 # be_server_url = "http://localhost:8000"
-be_server_url="https://rolebasedproject.onrender.com"
+be_server_url=st.secrets("be_server_url")
 st.title("Recruiter Dashboard")
 
 col1, col2 = st.columns(2)

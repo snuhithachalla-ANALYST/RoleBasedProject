@@ -3,7 +3,8 @@ import requests as r
 
 # # be_server_url = "http://localhost:8000"
 # be_server_url="https://rolebasedproject.onrender.com"
-be_server_url=st.secrets("be_server_url")
+# be_server_url=st.secrets("be_server_url")
+be_server_url = st.secrets["be_server_url"]
 
 st.title("Job Seeker Dashboard")
 
